@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.room4">
+   <children>
+      <TextArea layoutX="370.0" layoutY="67.0" prefHeight="200.0" prefWidth="200.0" text="11 000 р/м&#10;2-х комнатная, 56 м2 &#10;этаж 4/5&#10;Пенза ,&#10;Кулибино д.12 кв.75" />
+      <ImageView fitHeight="200.0" fitWidth="285.0" layoutX="32.0" layoutY="67.0">
+         <image>
+            <Image url="@3.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="button" layoutX="32.0" layoutY="267.0" mnemonicParsing="false" prefHeight="104.0" prefWidth="538.0" text="Button" />
+      <Button fx:id="but1" layoutX="32.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="27.0" text="Button" />
+      <CheckBox fx:id="but2" layoutX="477.0" layoutY="19.0" mnemonicParsing="false" text="Избранное" />
+   </children>
+</Pane>
